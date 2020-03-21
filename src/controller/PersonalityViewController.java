@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import service.PersonalityCalculator;
+
 
 @WebServlet(urlPatterns= {"/personality"})
 public class PersonalityViewController extends HttpServlet {
@@ -17,6 +19,8 @@ public class PersonalityViewController extends HttpServlet {
 
     public PersonalityViewController() {
         super();
+//        PersonalityCalculator pc=new PersonalityCalculator();
+//        pc.findYourBrainType("str");
         
     }
 
